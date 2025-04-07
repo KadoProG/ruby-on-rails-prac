@@ -3,7 +3,7 @@ services:
     build: .
     platform: linux/arm64/v8
     volumes:
-      - ".:/rails"
+      - ".:/app"
     ports:
       - 80:3000
     networks:
